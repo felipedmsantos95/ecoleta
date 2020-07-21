@@ -16,32 +16,34 @@
 ## App Mobile Screenshots
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/tela1.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/inicial.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/mapa.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/detail.png"/>
 </p>
 
 ## About
 
-Aplicação desenvolvida na Next Level Week 1.0, da Rocketseat: Plataforma com paǵina web para cadastro de pontos de coleta de resíduos com integração com API do IBGE e interação com mapas e aplicativo mobile em para usuários buscarem pontos de descarte para seus resíduos.
+Application developed at Rocketseat's Next Level Week 1.0: Platform with web page for registering waste collection points with integration with IBGE API and interaction with maps and mobile application for users to seek disposal points for their waste.
 
 ## Used technologies
 
-- React.js para front-end
-- React-Native para app mobile
-- Node.js para back-end
-- Banco de dados SQLite
+- React.js for front-end
+- React-Native for app mobile
+- Node.js for back-end
+- SQLite database
 
 
 ## Requirements
 
-Para executar os módulos do projeto é necessário ter os seguintes requisitos instalados no sistema:
+To execute the project modules it is necessary to have the following requirements installed in the system:
 
-- Node 12.x ou superior
-- Yarn 1.21 ou superior
-- Expo-cli 3.15 ou superior
+- Node 12.x or later
+- Yarn 1.21 or later
+- Expo-cli 3.15 or later
 
-## Executando o projeto
+## Running the project
 
-### Clonando o projeto
+### Clonning the project
 
 ```bash
 $ git clone https://github.com/felipedmsantos95/ecoleta
@@ -50,40 +52,40 @@ $ cd ecoleta
 
 ### Running Backend
 
-1. Para rodar a API pela primeira vez, acessar o diretório ./server/ e executar o comando abaixo para instalar as dependências:
+1. To run the API for the first time, access the ./server/ directory and execute the command below to install the dependencies:
 
 		npm i
 
-2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o backend da aplicação, por padrão ele estará disponível para requisições através da porta 3333 no endereço http://localhost:3333/:
+2. Once the dependencies are installed, using the command below it is possible to execute the application backend, by default it will be available for requests through port 3333 at the address http://localhost:3333/
 
 		npm start
 
 ### Running Frontend Web
 
-Com o backend sendo executado, pode-se executar os passos abaixo para rodar o frontend da aplicação localmente.
+With the backend running, you can perform the steps below to run the application frontend locally.
 
-1. Acessar o diretório ./web/ e executar o comando abaixo para instalar as dependências:
+1. Access the ./web/ directory and run the command below to install the dependencies:
 
 		yarn
 
-2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o frontend da aplicação:
+2. Once the dependencies are installed, using the command below it is possible to run the application frontend:
 
 		yarn start
 
-3. Feito isso, através de um navegador de internet (preferencialmente o Chrome ou o Firefox), através do endereço abaixo, será possível interagir com a aplicação desenvolvida.
+3. That done, through an internet browser (preferably Chrome or Firefox), through the address below, it will be possible to interact with the developed application.
 
 		http://localhost:3000/
 
 ### Running App Mobile
 
-1. Instalar o aplicativo [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en) em seu smartphone e o conectar na mesma rede que o servidor back-end.
+1. Install the [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en) application on your smartphone and connect it on the same network as the back-end server.
 
-2. Acessar o diretório ./mobile/ e executar o comando abaixo para instalar as dependências:
+2. Access the ./mobile/ directory and execute the command below to install the dependencies:
 
 		yarn
 
-3. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o cliente expo em seu navegador web padrão:
+3. Once the dependencies are installed, using the command below it is possible to run the expo client in your standard web browser:
 
 		yarn start
 
-4. Em seu smartphone abra o app expo e no modo LAN, faça o scan do QRCode fornecido em seu navegador web.
+4. On your smartphone, open the expo app and in LAN mode, scan the QRCode provided in your web browser.
