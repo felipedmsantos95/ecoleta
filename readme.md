@@ -16,7 +16,9 @@
 ## Screenshots App Mobile
 
 <p align="center">
-  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/tela1.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/inicial.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/mapa.png"/>
+  <img src="https://github.com/felipedmsantos95/ecoleta/blob/master/img/detail.png"/>
 </p>
 
 ## Sobre
