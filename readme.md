@@ -23,7 +23,7 @@
 
 ## Sobre
 
-Aplicação desenvolvida na Next Level Week 1.0, da Rocketseat: Plataforma com paǵina web para cadastro de pontos de coleta de resíduos com integração com API do IBGE e interação com mapas e aplicativo mobile em para usuários buscarem pontos de descarte para seus resíduos.
+Aplicação desenvolvida na Next Level Week 1.0, da [Rocketseat](https://github.com/Rocketseat): Plataforma com paǵina web para cadastro de pontos de coleta de resíduos com integração com API do IBGE e interação com mapas e aplicativo mobile em para usuários buscarem pontos de descarte para seus resíduos.
 
 ## Tecnologias utilizadas
 
